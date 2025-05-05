@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { fetchProd } from "./redux/productSlice";
 import Home from "./pages/Home";
